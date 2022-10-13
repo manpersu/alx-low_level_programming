@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*Hello, I am learning to use puts()*/
+/*
+ *Entry-point
+ *Return: returns 0 on succeess
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle"); 

@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -mx86-64
+gcc -S $CFILE -m x86-64

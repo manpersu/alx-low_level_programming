@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -mtune=i386
+gcc -S $CFILE -m64

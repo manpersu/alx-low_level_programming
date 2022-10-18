@@ -30,5 +30,13 @@ int _islower(int c);
 * This function checks if the character is an alphabet
 */
 int _isalpha(int c);
+
+/**
+ *Returns 1 and prints + if n is greater than zero
+ *Returns 0 and prints 0 if n is zero
+ *Returns -1 and prints - if n is less than zero
+ *
+ */
+int print_sign(int n);
 #endif
 

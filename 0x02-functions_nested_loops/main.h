@@ -16,5 +16,10 @@ int _putchar(char ch);
  **/
 void print_alphabet(void);
 
+/*******
+ * void print_alphabet_x10(void) - prints alphabets in lowercase 10x
+ *
+ */
+void print_alphabet_x10(void);
 #endif
 

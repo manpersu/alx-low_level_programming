@@ -38,5 +38,11 @@ int _isalpha(int c);
  *
  */
 int print_sign(int n);
+
+/**
+ * Computes the absolute number of in
+ *
+ */
+int _abs(int);
 #endif
 

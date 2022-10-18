@@ -1,3 +1,5 @@
+#include "main.h"
+
 /***
 *This function  returns nothing
 *

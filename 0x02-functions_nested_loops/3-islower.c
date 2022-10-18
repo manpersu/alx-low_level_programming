@@ -2,6 +2,7 @@
 /**
 *_islower - returns 1 if the character is a lowercase otherwise, a 0
 *
+*c - @param
 *Returns - Always 0
 */
 

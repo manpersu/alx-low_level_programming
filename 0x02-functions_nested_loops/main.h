@@ -8,5 +8,13 @@
  */
 int _putchar(char ch);
 
+/*************
+ *void print_alphabet(void); prints all aphabets
+ *in lowercase
+ *
+ * *The function returns nothing
+ **/
+void print_alphabet(void);
+
 #endif
 

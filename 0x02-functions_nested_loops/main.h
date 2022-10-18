@@ -48,5 +48,10 @@ int _abs(int);
  * this function prints the last digits
  */
 int print_last_digit(int);
+
+/***
+ * Prints minutes of Jack Bauer
+ */
+void jack_bauer(void);
 #endif
 

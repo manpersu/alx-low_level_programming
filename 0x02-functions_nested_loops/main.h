@@ -53,5 +53,10 @@ int print_last_digit(int);
  * Prints minutes of Jack Bauer
  */
 void jack_bauer(void);
+/**
+ * Multiplication table
+ *
+ */
+void times_table(void);
 #endif
 

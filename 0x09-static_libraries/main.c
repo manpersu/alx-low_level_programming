@@ -1,16 +1,16 @@
 #include "main.h"
 
-/*
- *  main - Entry Point.
- *  Description: The main function prints strings using the _puts() func.
+/**
+ * main - Entry point
  *
- *  _puts - This function prints strings in the main
+ * Description: The main prints charaters using _puts fun
  *
- *  Return - return 0 on success
+ * Return: Always return 0 on success
  */
+
 int main(void)
 {
-	_puts("\"At the end of the day, my goal was to be \
-			the best hacker\"\n\t- Kevin Mitnick");
+	_puts("\"At the end of the day, \
+	my goal was to be the best hacker\"\n\t- Kevin Mitnick");
 	return (0);
 }

@@ -4,11 +4,11 @@
 #include <ctype.h>
 #define UNUSED(x) (void)(x)
 /**
- * Checker - validates the int
+ * chaCheck - checks string
  * @s: string to check
  * Return: boolean
  */
-int Checker(char *s)
+int chaCheck(char *s)
 {
 	int i = 0;
 
@@ -36,7 +36,7 @@ int main(int argc, char  *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (Checker(argv[i]))
+			if (chaCheck(argv[i]))
 			{
 				result += atoi(argv[i]);
 			}

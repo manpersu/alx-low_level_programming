@@ -4,7 +4,7 @@
 #include <ctype.h>
 #define UNUSED(x) (void)(x)
 /**
- * StringCheck - checks string
+ * Checker - validates the int
  * @s: string to check
  * Return: boolean
  */

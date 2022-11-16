@@ -7,7 +7,7 @@
  * @argv: array of args
  * Return: return something
  */
-int main(int parama, char *paramb[])
+int main(int argc, char *argv[])
 {
 	if (argc == 4)
 	{
@@ -15,10 +15,10 @@ int main(int parama, char *paramb[])
 		int b;
 		int (*func)(int, int);
 
-		a = atoi(paramb[1]);
-		b = atoi(paramb[3]);
-		func = get_op_func(paramb[2]);
-		if ((*paramb[2] == '%' || *paramb[2] == '/') && b == 0)
+		a = atoi(argv[1]);
+		b = atoi(argv[3]);
+		func = get_op_func(argv[2]);
+		if ((*argv[2] == '%' || *argv[2] == '/') && b == 0)
 		{
 			printf("Error\n");
 			exit(100);

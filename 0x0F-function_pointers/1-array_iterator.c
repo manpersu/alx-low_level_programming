@@ -3,9 +3,9 @@
 #include <stdlib.h>
 /**
  * array_iterator - iterates through array
- * @array: array to go through
+ * @array: array to loop through
  * @size: size of array
- * @action: action function to take
+ * @action: function pointer to manipulate array
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {

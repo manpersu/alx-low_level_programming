@@ -9,11 +9,11 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsigned int i = 0;
+	unsigned int x;
 	va_list p_num;
 
 	va_start(p_num, n);
-	for (; i < n; i++)
+	for (x = 0; x < n; x++)
 	{
 		if (separator != NULL && i > 0)
 		/**

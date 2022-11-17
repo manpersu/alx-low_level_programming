@@ -16,10 +16,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (x = 0; x < n; x++)
 	{
 		if (separator != NULL && i > 0)
-		/**
-		 * This validates & ensures that separator
-		 * is not printed at begining of line *
-		 */
 		{
 			printf("%s", separator);
 		}

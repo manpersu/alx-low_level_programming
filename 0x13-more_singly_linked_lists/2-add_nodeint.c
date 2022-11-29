@@ -7,7 +7,9 @@
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *new_record = (listint_t)malloc(sizeof(listint_t));
+	listint_t *new_record;
+	new_record = malloc(sizeof(listint_t));
+
 	if (new_record == NULL)
 		return (NULL);
 	new_record->n = n;
